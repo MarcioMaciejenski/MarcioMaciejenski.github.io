@@ -1,5 +1,5 @@
 body {
-    background-color: #F0EFEB;
+    background-color: #005F73;
     padding: 3%;
 }
 
@@ -13,11 +13,16 @@ h1 {
 h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
+    text-align: center;
 }
 
 p {
     font-style: oblique;
     font-size: 18px;
+    position: absolute;
+    top: 34%;
+    right: 15%;
+
 }
  
 .habilidade1 {
@@ -31,17 +36,22 @@ p {
      font-size: 24px;
  }
 
- div {
-     border: 2px solid blue;
- }
-
  #foto {
      float: left;
-     height: 300px;
-     border-radius: 5%;
+     height: 280px;
+     width: 400px;
+     padding: 5px;
+     border-radius: 15px;
+     background-color: skyblue;
+    
  }
 
  .div-imagem {
-     height: 280px;
+     height: 300px;
+     position: relative;
+ }
 
+  /*coloca estilo nos itens ímpares da list (odd). Para itens pares usar (even) */
+ ol li:nth-child(odd) {
+     background-color: yellow;
  }
