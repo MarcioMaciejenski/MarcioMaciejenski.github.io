@@ -1,7 +1,13 @@
+body {
+    background-color: #F0EFEB;
+    padding: 3%;
+}
+
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: initials;
     font-size: 45px;
+    text-align: center;
 }
 
 h2{
@@ -14,10 +20,6 @@ p {
     font-size: 18px;
 }
  
-body {
-    background-color: #F0EFEB;
-}
-
 .habilidade1 {
     font-size: 16px;
 }
@@ -27,4 +29,19 @@ body {
 }
  .habilidade3 {
      font-size: 24px;
+ }
+
+ div {
+     border: 2px solid blue;
+ }
+
+ #foto {
+     float: left;
+     height: 300px;
+     border-radius: 5%;
+ }
+
+ .div-imagem {
+     height: 280px;
+
  }
