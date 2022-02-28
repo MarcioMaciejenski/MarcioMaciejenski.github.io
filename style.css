@@ -6,8 +6,25 @@ h1 {
 
 h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
 }
 
 p {
     font-style: oblique;
+    font-size: 18px;
 }
+ 
+body {
+    background-color: #F0EFEB;
+}
+
+.habilidade1 {
+    font-size: 16px;
+}
+
+.habilidade2 {
+    font-size: 20px;
+}
+ .habilidade3 {
+     font-size: 24px;
+ }
