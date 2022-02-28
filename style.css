@@ -9,6 +9,7 @@ h1 {
     font-size: 45px;
     text-align: center;
     text-shadow: 2px 2px 4px black;
+    color: gray;
 }
 
 h2{
@@ -72,8 +73,8 @@ p {
 
  /*configuração dos botões de link*/
  .button {
-     color: white;
-     background-color: gray;
+     color: rgb(4, 47, 102);
+     background-color: white;
      text-decoration: none;
      line-height: 30px;
      padding: 10px;
@@ -92,7 +93,7 @@ p {
 
  /*cria efeito nos botões*/
  a:hover {
-    color: #005F73;
+    color: black;
  }
 
 a:active {
